@@ -1,0 +1,22 @@
+
+html, body, :global(#root) {
+  height: 100%;
+}
+:global(*){
+  box-sizing: border-box;
+}
+:global(.ant-card-body){
+    height:100%;
+  }
+:global(.ant-layout-content){
+  min-width:1000px;
+  position: absolute;
+  top:64px;
+  left:0px;
+  right:0;
+  bottom:0;
+}
+
+
+
+
